@@ -1,0 +1,64 @@
+.branchPage {
+  background: #ffffff;
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+
+  h1 {
+    font-size: 36px;
+    color: #a70000;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #555;
+    font-size: 16px;
+  }
+}
+
+.branchList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.branchCard {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 25px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  h2 {
+    color: #a70000;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(167, 0, 0, 0.15);
+    border-color: #a70000;
+  }
+}
