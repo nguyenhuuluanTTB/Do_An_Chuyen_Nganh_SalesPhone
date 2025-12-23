@@ -1,0 +1,76 @@
+# Node dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Environment variables
+.env*
+
+# Test coverage
+coverage/
+.nyc_output/
+*.test.js.snap
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor folders/files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Temp files
+*.tmp
+*.temp
+.cache/
+.temp/
+tmp/
+
+# Database files
+*.db
+*.sqlite*
+
+# Uploads & Media
+uploads/
+public/uploads/
+
+# API Keys & Secrets
+config/secrets.js
+config/keys.js
+secrets.json
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Vercel
+.vercel
+
+# Misc
+*.pem
